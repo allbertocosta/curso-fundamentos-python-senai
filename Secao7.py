@@ -10,7 +10,12 @@
 
 # Potencia
 # 
-quad = [x ** 2 for x in range(11)]
-print (quad)
-par = [x for x in quad if x % 2 == 0 ]
-print(par)
+# quad = [x ** 2 for x in range(11)]
+# print (quad)
+# par = [x for x in quad if x % 2 == 0 ]
+# print(par)
+
+matriz = []
+for i in range(8):
+    row = ["SENAI" for i in range (8)]
+    matriz.append(row)
