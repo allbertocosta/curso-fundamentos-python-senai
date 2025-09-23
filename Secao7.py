@@ -9,5 +9,6 @@
 # print(row)
 
 # Potencia
-quad = [x ** 2 for x in range(1,11)]
-print(quad)
+# 
+two = [2 ** x for x in range(11)]
+print (two)
