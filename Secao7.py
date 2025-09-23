@@ -10,5 +10,7 @@
 
 # Potencia
 # 
-two = [2 ** x for x in range(11)]
-print (two)
+quad = [x ** 2 for x in range(11)]
+print (quad)
+par = [x for x in quad if x % 2 == 0 ]
+print(par)
