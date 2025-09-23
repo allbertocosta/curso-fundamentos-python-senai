@@ -15,11 +15,18 @@
 # par = [x for x in quad if x % 2 == 0 ]
 # print(par)
 
-matriz = []
-for i in range(8):
-    row = ["SENAI" for i in range (8)]
-    matriz.append(row)
-    print(row)
-    print("***"*50)
-    print(matriz)
+
+#Exemplo 1
+# matriz = []
+# for i in range(8):
+#     row = ["SENAI" for i in range (8)]
+#     matriz.append(row)
+#     print(row)
+#     print("***"*50)
+#     print(matriz)
+
+
+# Exemplo 2
+matriz =[["Alberto" for i in range(3)] for j in range (5)]
+print(matriz)
 
