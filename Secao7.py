@@ -20,4 +20,6 @@ for i in range(8):
     row = ["SENAI" for i in range (8)]
     matriz.append(row)
     print(row)
+    print("***"*50)
+    print(matriz)
 
